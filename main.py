@@ -32,7 +32,7 @@ async def send_welcome(message: types.Message):
     """
     This handler will be called when user sends `/start` or `/help` command
     """
-    await message.reply("Hi!\nI'm Spaced repetition bot!\nPowered by aiogram.")
+    await message.reply("Hi!\nI'm Spaced repetition bot!\nPowered by aiogram.\nYou can run your own copy with https://github.com/Hiyorimi/spaced_repetition_bot.")
 
 
 async def spacely_repeat(message: types.Message):
